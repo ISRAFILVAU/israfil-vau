@@ -3,7 +3,7 @@
 from os import path
 import os,base64,zlib,pip,urllib
 #os.system('xdg-open https://www.facebook.com/mdisrafilmi570/')
-print('\n\033[1;37m install modules...\n It will take some seconds...')
+print('\n\033[1;92m install modules...\n It will take some seconds...')
 
 try:
         import os,requests,json,time,re,random,sys,uuid,string,subprocess
@@ -45,7 +45,7 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
-logo=("""\033[1;37m
+logo=("""\033[1;92m
   
  /$$$$$$  /$$$$$$  /$$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$ /$$      
 |_  $$_/ /$$__  $$| $$__  $$ /$$__  $$| $$_____/|_  $$_/| $$      
@@ -66,7 +66,7 @@ logo=("""\033[1;37m
 ----------------------------------------------
  Green Pro version 1.9.8
  For Haters: Tumhare Okat Nhi Mere BAAJI chodne Ke 🤞
-\033[1;37m----------------------------------------------""")
+\033[1;92m----------------------------------------------""")
 def linex():
         print('\033[1;92m----------------------------------------------')
 def clear():
@@ -125,7 +125,7 @@ def public():
         try:
                 info = requests.get('https://graph.facebook.com/me/?access_token='+tok,cookies = {"cookie":cok}).json()
                 name=(info['name'])
-                print('\033[1;32m Welcome '+name)
+                print('\033[1;92m Welcome '+name)
                 linex()
         except KeyError:
                 print('\033[1;31mYour cookies han expired...');time.sleep(1)
